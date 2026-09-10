@@ -1,0 +1,44 @@
+{
+  "active": true,
+  "hubId": "fxmacrodata",
+  "name": "FXMacroData Research",
+  "schema": "skill-1.0.0",
+  "version": "0.1.0",
+  "description": "Research macroeconomic indicators, release calendars, FX reference data, positioning, commodities and scenario tools with FXMacroData. Use daily_briefing for a public USD overview or choose a named REST/MCP operation. Dates and source links are preserved.",
+  "author": "FXMacroData",
+  "author_url": "https://fxmacrodata.com",
+  "license": "Apache-2.0",
+  "setup_args": {
+    "authentication": {
+      "type": "string",
+      "required": false,
+      "input": {
+        "type": "text",
+        "default": "public",
+        "placeholder": "public",
+        "hint": "public (default), or environment to use FXMD_API_KEY from the host secret environment. Never enter an API key here."
+      },
+      "value": "public"
+    }
+  },
+  "examples": [
+    {
+      "prompt": "Give me the latest USD macroeconomic briefing and upcoming releases.",
+      "call": "{\"operation\":\"daily_briefing\",\"arguments\":{\"currency\":\"usd\"}}"
+    },
+    {
+      "prompt": "Find USD macroeconomic indicators available for research.",
+      "call": "{\"operation\":\"mcp_data_catalogue\",\"arguments\":{\"currency\":\"usd\"}}"
+    }
+  ],
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "operation": {
+        "type": "string",
+        "description": "A named FXMacroData operation, or daily_briefing for public USD."
+      }
+    }
+  },
+  "imported": true
+}

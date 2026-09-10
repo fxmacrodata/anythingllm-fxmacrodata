@@ -1,0 +1,11 @@
+{
+  "files": [
+    "handler.js",
+    "plugin.json",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "CAPABILITIES.md",
+    "THIRD_PARTY_LICENSES.txt"
+  ]
+}
