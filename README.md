@@ -38,4 +38,4 @@ Use returned official source links and timestamps when citing data. Distinguish 
 
 ## Build and test
 
-From this package directory, run `npm install`, `npm test`, `npm run typecheck`, and `npm run build`. `npm run build` writes the bundled `handler.js` and dependency notices. Use `HUB_FILES.json` to assemble the native Skill directory or Hub ZIP described above. Apache-2.0 licensing covers this integration; API access and data reuse remain subject to [FXMacroData terms](https://fxmacrodata.com/terms).
+From this package directory, run `npm install`, `npm test`, `npm run typecheck`, and `npm run build`. `npm run build` writes the bundled `handler.js` and dependency notices. Use `HUB_FILES.json` to assemble the native Skill directory or Hub ZIP described above. Apache-2.0 licensing covers this integration; API access and data reuse remain subject to [FXMacroData terms](https://fxmacrodata.com/terms?utm_source=github&utm_medium=referral&utm_campaign=anythingllm-fxmacrodata&utm_content=readme).
