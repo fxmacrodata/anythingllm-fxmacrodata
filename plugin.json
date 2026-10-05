@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Research macroeconomic indicators, release calendars, FX reference data, positioning, commodities and scenario tools with FXMacroData. Use daily_briefing for a public USD overview or choose a named REST/MCP operation. Dates and source links are preserved.",
   "author": "FXMacroData",
-  "author_url": "https://fxmacrodata.com",
+  "author_url": "https://fxmacrodata.com/?utm_source=anythingllm&utm_medium=integration&utm_campaign=anythingllm-fxmacrodata&utm_content=homepage",
   "license": "Apache-2.0",
   "setup_args": {
     "authentication": {
